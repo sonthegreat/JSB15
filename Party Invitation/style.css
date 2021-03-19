@@ -1,0 +1,18 @@
+.vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+    
+.container{
+    position: relative;
+    background-image: url("https://cdn-0.preppywallpapers.com/wp-content/uploads/2016/06/Watercolor7-1.jpg");
+    width: 459.5px;
+    height: 600px;
+    text-align: center;
+    left: 30%;
+}
