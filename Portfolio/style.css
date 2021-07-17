@@ -1,0 +1,205 @@
+.html{
+    height: 100%;
+    margin: auto;
+    width: 100%;
+
+}
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(90deg, white 50%, lightgray 50%);
+    
+  }
+  .body{
+      background: whitesmoke;
+  }
+  
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    right: 150px;
+    top: 15px;
+    word-spacing: 50px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+.container {
+        height: 550px;
+        background: linear-gradient(90deg, white 50%, lightgray 50%);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+        display: flex;        
+        font-size: 22px;
+        color: black;
+        width: 100%;
+        
+}
+.container-abMe{
+    justify-content: flex-end;
+    display: flex;
+    width: 100vh;
+    height: 800px;
+    background-image: url("https://img.freepik.com/free-vector/gamers-mascot-logo_10051-493.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.container-text{
+justify-content: end;
+display: flex;
+flex-direction: column;
+width: 50%;
+height: 700px;
+align-items: flex-start;
+position: absolute;
+right: 20px;
+top: 700px;
+font-family: 'Kiwi Maru', serif;
+width: 100vh;
+}
+button{
+    background-color: #0080ff;
+    color: white;
+    border-radius: 20px;
+    width: 125px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+
+}
+.left-container{
+    font-family: 'Oswald', sans-serif;
+    margin: .7in;
+}
+.container-resume{
+    position: relative;
+    top: 10px;
+    right: -300px;
+    top: -187px;
+    width: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.item-1{
+    position: relative;
+    right: -70px;
+    top: -80px;
+}
+.item-2{
+    position: relative;
+    right: -90px;
+    top: -95px;
+}
+.item-3{
+    position: relative;
+    right: -90px;
+    top: -95px;
+}
+.container-activitie{
+    height: 700px;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    width: 100%;
+}
+.container-contactme{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    height: 500px;
+    width: 100%;
+    
+}
+.item-4{
+width: 170px;
+height: 170px;
+border: 15px solid lightgray;
+padding: 10px;
+margin: 1in;
+}
+.item-5{
+width: 170px;
+height: 170px;
+border: 15px solid lightgray;
+padding: 10px;
+margin: .5in;
+position: relative;
+right: -330px;
+top: -316px;
+}
+.item-6{
+width: 170px;
+height: 170px;
+border: 15px solid lightgray;
+padding: 10px;
+margin: .1in;
+position: relative;
+right: -650px;
+top: -583px;
+}
+.item-7{
+    width: 170px;
+    height: 170px;
+    border: 15px solid lightgray;
+    padding: 10px;  
+    margin: .5in;
+    position: relative;
+    right: -895px;
+    top: -850px;
+}
+
+.container-typeholder{
+position: relative;
+right: -600px;
+top: -500px;
+background: whitesmoke;
+padding: 50px;
+width: 37%;
+}
+.container-im{
+height: -100px;
+}
+    
+.item-8{
+    margin-bottom: 20px;
+}
+.item-9{
+    margin-bottom: 20px;
+}
+.item-10{
+    margin-bottom: 20px;
+}
+.item-11{
+    margin-bottom: 20px;
+}
+
+
+.container-final{
+    background: black;
+    height: 400px;
+    margin: 0in;
+    font: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.item-12{
+    position: relative;
+    right: -100px;
+    top: 100px
+}
+.item-13{
+    position: relative;
+    right: -500px;
+    top: -80px;
+}
+.item-14{
+    position: relative;
+    right:-800px;
+    top: -295px;
+    width: 170px;
+}
+.container-typeholder :placeholder-shown{
+    height: 30px;
+    width: 450px;
+}
