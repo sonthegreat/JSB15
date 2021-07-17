@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/74a85fb860.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body-pd">
+   <div class="nav1">
+      <ul class="ul1">
+          <li class="li1"><img
+                  src="https://i.pinimg.com/originals/15/d7/f3/15d7f39d142ed0ad0be65c0e06f1e990.png"></li>
+          <div class="side-navi">
+            <li class="li1"><i class="far fa-comments" onclick="feedbackfunction()"></i></li>
+              <li class="li1"><i class="fa fa-facebook"></i></li>
+              <li class="li1"><i class="fa fa-instagram"></i></li>
+              <li class="li1"><i class="fa fa-twitter"></i></li>
+          </div>
+      </ul>
+  </div>
+   <div class="container"></div>
+   <div class="container-typeholder">
+      <span class="logo"><img src="https://i.pinimg.com/originals/15/d7/f3/15d7f39d142ed0ad0be65c0e06f1e990.png"
+            height="80px">
+      </span>
+      <span class="gamebutton"><button
+            style="width: 80px; height: 70px; background-color: #cc5801;">Games</button></span>
+      <div class="searchbox">
+         <input class="search-txt" type="text" name="" placeholder="Fighting Game">
+         <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+         </a>
+      </div>
+
+      <span class="register">
+         <button class="register" style="background-color: #cc5801; height: 70px;">Register</button>
+      </span>
+      <span class="login">
+         <button class="login" style="height: 70px; background-color: whitesmoke; color: gray;">Login</button>
+      </span>
+      <span class="language">
+         <button style="height: 70px; width: 70px; background-color: #1338be;"><img
+               src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_the_United_States_and_United_Kingdom.png"
+               height="30px"></button>
+      </span>
+      <div class="topsearch">
+         <h3>TOP SEARCHES</h3>
+         <span class="Dash">
+            <button onclick="DashFunction()">Geometrydash</button>
+        </span>
+        <span class="Superfighter">
+            <button style="width: 110px;" onclick="SPFunction()">Superfighter</button>
+        </span>
+        <span class="Tank">
+            <button style="width: 80px;" onclick="TankFunction()">Tanki</button>
+        </span>
+        <span class="Krunker">
+            <button style="width: 100px;" onclick="KrunkerFunction()">Krunker</button>
+        </span>
+        <span class="Tetris">
+            <button style="width: 80px;"  onclick="TetrisFunction()">Tetris</button>
+        </span>
+      </div>
+      <span class="newgame">
+         <button class="accordion" style="font-size: 13.2px;">New Games <i class="fas fa-chevron-down"></i>
+            <p id="demo"></p>
+         </button>
+      </span>
+   </div>
+
+
+   <div class="container-layer1" id="d1">
+      <div class="item item-27">
+         <a href="https://surviv.io/" target="_blank">
+            <img alt="Qries"
+               src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Surviv.io.png/260px-Surviv.io.png"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Surviv.io - one of the most popular Battle Royale games of all
+               time - is now on mobile! Join the community of over 100 million players in a 2-D Battle Royale that packs
+               an intense punch. No lobbies, no long waits, no lengthy drop sequences. Fight fast and dirty in an
+               ever-evolving set of locations. Survive... and win!
+            </div>
+         </a>
+         <h2 style="color: #0080ff;">Surviv.io</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-17">
+         <a href="https://krunker.io/" target="_blank">
+            <img alt="Qries" src="https://i.ytimg.com/vi/6rkLSVgMkvs/maxresdefault.jpg" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Krunker.io is an io game of aiming and shooting.Krunker.io is
+               filled with clever maps and a wide range of weapons to choose from. Description: Play a Krunker.io 2021
+               game online on Friv Original.You can play all game in Action Games online. So we have decided The goal is
+               to encourage Game Creators to create unique experiences that don't follow the usual trend of: infected,
+               parkour or trade maps.
+            </div>
+         </a>
+         <h2 style="color: #0080ff;">Krunker.io</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-21">
+         <a href="https://venge.io/" target="_blank">
+            <img alt="Qries"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyiClmzGJzQAMECYY9GOdtho7PpqnN1VTsaU-e6Ulm0eawB54Nt2FW0vmCSoKnVqj60k&usqp=CAU"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Venge.io is an online shooter where you will be playing
+               against real players from all around the world in an arena. There are several weapons to choose from such
+               as Scar, Shotgun, Tec-9 and even a Sniper rifle! You must find the green areas on the map and capture
+               that area before your opponents do.</div>
+         </a>
+         <h2 style="color: #0080ff;">Venge.io</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-15">
+         <a href="https://www.crazygames.com/game/boxing-random" target="_blank">
+            <img alt="Qries" src="https://cdn.kiz10.com/upload/thumbnails/mediums/14077/boxing-random_.webp" width="200"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">The new version of the random game series that you love
+               to
+               play continues with Boxing Random. Again, changing conditions occur in every round. Sometimes the
+               boxing
+               field changes and sometimes the boxers. Adapt to every random feature and hit accurately. When you
+               get
+               the rocket punch, balance and send it to the opponent's head. This way you can knock out the
+               opponent
+               without getting close! The one who reaches 5 score first, wins the game!</div>
+         </a>
+         <h2 style="color: #0080ff;">Boxing Random</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      
+      <div class="item item-2">
+         <a href="https://www.crazygames.com/game/stick-war-legacy-2" target="_blank">
+            <img alt="Qries" src="https://images-na.ssl-images-amazon.com/images/I/81qP2v%2BzOfL.jpg" height="200"
+               class="image">
+            <div class="overlay" style="font-size: 10px;">Stickman Clans is a 2D strategy game with a gripping campaign and action-packed online multiplayer battles. Protect your castle and king, mine resources, and prepare your stick figure army for the ultimate attack with new units and powerful upgrades.</div>
+         </a>
+         <h2 style="color: #0080ff;">Stick war legacy 2</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+   </div>
+   <div class="container-layer1" id="d1">
+      <div class="item item-22">
+         <a href="https://www.y8.com/games/superfighters" target="_blank">
+            <img alt="Qries" src="https://i.ytimg.com/vi/xVNcIE9wFBo/hqdefault.jpg" width="316px" height="200"
+               class="image">
+            <div class="overlay" style="font-size: 10px;">Tetris is a tile-matching video game created by Russian
+               software engineer Alexey Pajitnov in 1984 for the Electronika 60 computer. It has been published by
+               several companies, most prominently during a dispute over the appropriation of the rights in the late
+               1980s.</div>
+         </a>
+         <h2 style="color: #0080ff;">Superfighter</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-11">
+         <a href="http://www.creetor.com/fighting/creetor-animation-fighting-luffy-vs-naruto" target="_blank">
+            <img alt="Qries" src="https://i.pinimg.com/originals/fb/c1/7f/fbc17f66476109494f8322613ea12b97.png"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Best animation fighting game ever! You can choose your
+               character from One piece,naruto,bleach,dragon ball characters to fight computer or your friends.more
+               characters and game modes will coming soon!</div>
+         </a>
+         <h2 style="color: #0080ff;">Animation Fighting</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-26">
+         <a href="http://titotu.io/arrow-io" target="_blank">
+            <img alt="Qries"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV_j1M5R9LhHbLsVC52MMFZYBMfuVuCA75VZ9Uj6p5iy19wJOFNwQTN_YWVkOX69wkPH4&usqp=CAU"
+               width="400" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Arrow io is one of those crazy games you play once and play it
+               for any hours after that. Arrow io is an io shooter with bow and arrows. Join the game and show who is
+               the pro player.
+
+            </div>
+         </a>
+         <h2 style="color: #0080ff;">Arrow.io</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-31">
+         <a href="https://www.twoplayergames.org/game/gun-mayhem-2" target="_blank">
+            <img alt="Qries" src="https://gunmayhem.io/data/image/gun-mayhem.jpeg" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Play the original Gun Mayhem game where the goal is to stay on
+               the island without getting knocked off. Choose your weapon wisely so that you can knock your opponents
+               off. Grab creates to to get firearm upgrades.</div>
+         </a>
+         <h2 style="color: #0080ff;">Guy Mayhem 2</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-2">
+         <a href="https://www.crazygames.com/game/stick-war-legacy-2" target="_blank">
+            <img alt="Qries" src="https://images-na.ssl-images-amazon.com/images/I/81qP2v%2BzOfL.jpg" height="200"
+               class="image">
+            <div class="overlay" style="font-size: 10px;">Stickman Clans is a 2D strategy game with a gripping campaign and action-packed online multiplayer battles. Protect your castle and king, mine resources, and prepare your stick figure army for the ultimate attack with new units and powerful upgrades.</div>
+         </a>
+         <h2 style="color: #0080ff;">Stick war legacy 2</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-3">
+         <a href="https://www.y8.com/games/masked_forces">
+            <img alt="Qries" src="https://cdn.akamai.steamstatic.com/steam/apps/923290/capsule_616x353.jpg?t=1592975828"
+               height="200" class="image" target="_blank">
+            <div class="overlay" style="font-size: 10px;">Masked Forces is a 3D first person shooter that you can play in your browser for free. Get ready to enter the arena and battle with other players! Before you enter a game, you can choose your username and view your current character level and available cash. You can also collect your daily rewards here which can be cash or even new weapons.</div>
+         </a>
+         <h2 style="color: #0080ff;">Masked Forces</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-7">
+         <a href="https://www.twoplayergames.org/game/boxhead-2play" target="_blank">
+            <img alt="Qries" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe6jHnd3Jy4WbU3b1F6S1puN-K07WvHw8i-P_NeotOks96xESW0lVPYcj9SkVB2O46QjU&usqp=CAU"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Here is the fourth game of Boxhead game series. This version gives us a chance of playing this game with 2 players. You can play this game as multiplayer by choosing "Cooperactive" from the game menu. Now, you can battle againist to Zombies with your friend. You can see game controls from "Controls" section and you can configure them however you want. We hope you will have fun.
+
+            </div>
+         </a>
+         <h2 style="color: #0080ff;">Box Head 2 Play</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+   </div>
+
+
+
+
+
+   <div class="l-navbar" id="navbar">
+      <nav class="nav">
+         <div>
+            <div class="nav__brand">
+               <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+               <a href="#" class="nav__logo" onclick="IndexFunction()">EpicGamer.com</a>
+            </div>
+            <div class="nav__list">
+               <a href="#" class="nav__link1 active" onclick="SimpleFunction()">
+                  <img src="https://freepikpsd.com/media/2019/11/flappy-bird-png-1-Transparent-Images.png"
+                     class="nav__icon" height="20px"></ion-icon>
+                  <span class="nav__name">Simple Games</span>
+               </a>
+
+               <a href="#" class="nav__link2 active" onclick="SportFunction()">
+                  <img
+                     src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Soccer_ball.svg/1200px-Soccer_ball.svg.png"
+                     style="height: 20px;" class="nav__sport"> <span class="nav__name1">Sport Games</span>
+               </a>
+
+               <a href="#" class="nav__link3 active" onclick="FightingFunction()">
+                  <img src="https://image.flaticon.com/icons/png/512/158/158107.png" class="nav__fight"
+                     style="height: 20px;"><span class="nav__name3">Fighting Games</span>
+
+               </a>
+
+               <a href="#" class="nav__link4 active" onclick="StrategyFunction()">
+                  <span class="nav__strategy"><i class="fas fa-chess-bishop"></i></span>
+                  <span class="nav__name4">Strategy Games</span>
+               </a>
+               <a href="#" class="nav__link5 active" onclick="TwoPlayerFunction()">
+                  <span class="nav__twoplayergame"><img
+                        src="https://cdn.iconscout.com/icon/premium/png-256-thumb/two-player-1546039-1313132.png" style
+                        height="20px"></span>
+                  <span class="nav__name5">TwoPlayerGames</span>
+               </a>
+               <a href="#" class="nav__link6 active" onclick="ArcadeFunction()">
+                  <span class="nav__arcade"><img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Pacman_HD.png"
+                        style height="20px"></span>
+                  <span class="nav__name6">Arcade Games</span>
+               </a>
+            </div>
+         </div>
+
+         <a href="#" class="nav__link7 active">
+            <span class="nav__logout">
+               <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+            </span>
+            <span class="nav__name7">Log Out</span>
+
+         </a>
+      </nav>
+   </div>
+   <!-- ===== IONICONS ===== -->
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+   <!-- ===== MAIN JS ===== -->
+   <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

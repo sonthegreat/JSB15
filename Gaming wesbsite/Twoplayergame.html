@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/74a85fb860.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body-pd">
+   <div class="nav1">
+      <ul class="ul1">
+          <li class="li1"><img
+                  src="https://i.pinimg.com/originals/15/d7/f3/15d7f39d142ed0ad0be65c0e06f1e990.png"></li>
+          <div class="side-navi">
+            <li class="li1"><i class="far fa-comments" onclick="feedbackfunction()"></i></li>
+              <li class="li1"><i class="fa fa-facebook"></i></li>
+              <li class="li1"><i class="fa fa-instagram"></i></li>
+              <li class="li1"><i class="fa fa-twitter"></i></li>
+          </div>
+      </ul>
+  </div>
+   <div class="container"></div>
+   <div class="container-typeholder">
+      <span class="logo"><img src="https://i.pinimg.com/originals/15/d7/f3/15d7f39d142ed0ad0be65c0e06f1e990.png"
+            height="80px">
+      </span>
+      <span class="gamebutton"><button
+            style="width: 80px; height: 70px; background-color: #cc5801;">Games</button></span>
+      <div class="searchbox">
+         <input class="search-txt" type="text" name="" placeholder="Two player game">
+         <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+         </a>
+      </div>
+
+      <span class="register">
+         <button class="register" style="background-color: #cc5801; height: 70px;">Register</button>
+      </span>
+      <span class="login">
+         <button class="login" style="height: 70px; background-color: whitesmoke; color: gray;">Login</button>
+      </span>
+      <span class="language">
+         <button style="height: 70px; width: 70px; background-color: #1338be;"><img
+               src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_the_United_States_and_United_Kingdom.png"
+               height="30px"></button>
+      </span>
+      <div class="topsearch">
+         <h3>TOP SEARCHES</h3>
+         <span class="Dash">
+            <button onclick="DashFunction()">Geometrydash</button>
+        </span>
+        <span class="Superfighter">
+            <button style="width: 110px;" onclick="SPFunction()">Superfighter</button>
+        </span>
+        <span class="Tank">
+            <button style="width: 80px;" onclick="TankFunction()">Tanki</button>
+        </span>
+        <span class="Krunker">
+            <button style="width: 100px;" onclick="KrunkerFunction()">Krunker</button>
+        </span>
+        <span class="Tetris">
+            <button style="width: 80px;"  onclick="TetrisFunction()">Tetris</button>
+        </span>
+      </div>
+      <span class="newgame">
+         <button class="accordion" style="font-size: 13.2px;">New Games <i class="fas fa-chevron-down"></i>
+            <p id="demo"></p>
+         </button>
+      </span>
+   </div>
+
+   <div class="container-layer1" id="d1">
+      <div class="item item-18">
+         <a href="https://fireboyand-watergirl.co/" target="_blank">
+            <img alt="Qries"
+               src="https://images.crazygames.com/games/fireboy-and-watergirl-the-forest-temple/cover-1586285142530.jpg?auto=format,compress&q=75&cs=strip&ch=DPR&w=1200&h=630&fit=crop"
+               width="316px" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Tetris is a tile-matching video game created by Russian
+               software engineer Alexey Pajitnov in 1984 for the Electronika 60 computer. It has been published by
+               several companies, most prominently during a dispute over the appropriation of the rights in the late
+               1980s.</div>
+         </a>
+         <h2 style="color: #0080ff;">Fireboy and watergirl</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-31">
+         <a href="https://www.crazygames.com/game/bomb-it-7" target="_blank">
+            <img alt="Qries"
+               src="https://images.crazygames.com/games/bomb-it-7/cover-1587120120886.jpg?auto=format,compress&q=75&cs=strip&ch=DPR&w=1200&h=630&fit=crop"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Section 7 of the Bomb IT game will bring you relaxation
+               moments with the classic category of Bomberman. Place bombs and kill your enemy!</div>
+         </a>
+         <h2 style="color: #0080ff;">Bomb it 7</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-6">
+         <a href="https://www.y8.com/games/tanktrouble" target="_blank">
+            <img alt="Qries"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEVbcZuFh2kdVEavg458p3crzCo7vokeADQ&usqp=CAU"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Tank trouble was an early tank game where strategy is needed
+               to hit your opponent with a projectile. Play single player, two player, or three player. Similar to Az
+               tank, Total Tankage.</div>
+         </a>
+         <h2 style="color: #0080ff;">Tank</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-7">
+         <a href="https://gomokuonline.com/" target="_blank">
+            <img alt="Qries" src="https://images-na.ssl-images-amazon.com/images/I/61HYLlxMJvL._AC_SX466_.jpg"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Gomoku, also called Five in a Row, is an abstract strategy
+               board game. It is traditionally played with Go pieces on a Go board. It can be played using the 15×15
+               board or the 19×19 board. Because pieces are typically not moved or removed from the board, gomoku may
+               also be played as a paper-and-pencil game</div>
+         </a>
+         <h2 style="color: #0080ff;">Gomuku</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-16">
+         <a href="https://papergames.io/en/connect4" target="_blank">
+            <img alt="Qries" src="https://www.cbc.ca/kids/images/connect4_play.jpg" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Connect Four (also known as Four Up, Plot Four, Find Four,
+               Captain's Mistress, Four in a Row, Drop Four, and Gravitrips in the Soviet Union) is a two-player
+               connection board game, in which the players choose a color and then take turns dropping colored discs
+               into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the
+               lowest available space within the column. The objective of the game is to be the first to form a
+               horizontal, vertical, or diagonal line of four of one's own discs. Connect Four is a solved game. The
+               first player can always win by playing the right moves.</div>
+         </a>
+         <h2 style="color: #0080ff;">Connect 4</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+         <div class="item item-22">
+            <a href="https://www.y8.com/games/superfighters" target="_blank">
+               <img alt="Qries" src="https://i.ytimg.com/vi/xVNcIE9wFBo/hqdefault.jpg" width="316px" height="200"
+                  class="image">
+               <div class="overlay" style="font-size: 10px;">Tetris is a tile-matching video game created by Russian
+                  software engineer Alexey Pajitnov in 1984 for the Electronika 60 computer. It has been published by
+                  several companies, most prominently during a dispute over the appropriation of the rights in the late
+                  1980s.</div>
+            </a>
+            <h2 style="color: #0080ff;">Superfighter</h2>
+            <h2>⭐⭐⭐⭐</h2>
+         </div>
+         <div class="item item-7">
+            <a href="https://www.twoplayergames.org/game/boxhead-2play" target="_blank">
+               <img alt="Qries" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe6jHnd3Jy4WbU3b1F6S1puN-K07WvHw8i-P_NeotOks96xESW0lVPYcj9SkVB2O46QjU&usqp=CAU"
+                  height="200" class="image">
+               <div class="overlay" style="font-size: 10px;">Here is the fourth game of Boxhead game series. This version gives us a chance of playing this game with 2 players. You can play this game as multiplayer by choosing "Cooperactive" from the game menu. Now, you can battle againist to Zombies with your friend. You can see game controls from "Controls" section and you can configure them however you want. We hope you will have fun.
+   
+               </div>
+            </a>
+            <h2 style="color: #0080ff;">Box Head 2 Play</h2>
+            <h2>⭐⭐⭐⭐</h2>
+         </div>
+      </div>
+      <div class="container-layer1" id="d1">
+      <div class="item item-12" class="image">
+         <a href="https://www.crazygames.com/game/soccer-random" target="_blank">
+            <img alt="Qries"
+               src="https://images.crazygames.com/games/soccer-random/cover-1592583531704.png?auto=format,compress&q=75&cs=strip&ch=DPR&w=1200&h=630&fit=crop"
+               width="350" height="200">
+            <div class="overlay" style="font-size: 10px;">Football is here with its most funny and random way. In
+               Soccer
+               Random game, try to score a goal by using only one key with different variations from each other!
+               Sometimes you will play on a iced field or you will play on a beach. The goal of the game is, to
+               score
+               five goals and win the game even the balls, players or goal posts change! You can play Soccer
+               Random game
+               either against CPU or against a friend in 2 player gaming mode! Let the soccer match begin! </div>
+         </a>
+         <h2 style="color: #0080ff;">Soccer Random</h2>
+         <h2>⭐⭐⭐⭐</h2>
+
+      </div>
+      <div class="item item-13">
+         <a href="https://www.crazygames.com/game/volley-random" target="_blank">
+            <img alt="Qries"
+               src="https://images.crazygames.com/games/volley-random/cover-1613988274520.jpeg?auto=format,compress&q=75&cs=strip"
+               width="350" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">The fun random game series continues with Volley Random.
+               There
+               is a Volleyball experience unlike any before. With fun ragdoll physics and a variety of variations,
+               each
+               match will be different. The playing court, ball and players may change. The important thing is to
+               be
+               able to get score under all conditions. </div>
+         </a>
+         <h2 style="color: #0080ff;">Volley Random</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-14">
+         <a href="https://www.crazygames.com/game/basket-random" target="_blank">
+            <img alt="Qries"
+               src="https://images.twoplayergames.org/files/games/other/Basket_Random/Basket_Random.jpg?auto=format&w=160"
+               width="250" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">The random series continues with Basket Random!
+               Basketball is
+               here with its most funny and random way. In Basket Random game, try to score a basket by using only
+               one
+               key with different variations from each other! Changing fields, changing players and changing balls
+               do
+               not surprise you! You can be the best of them all. You can play Basket Random game either against
+               CPU or
+               against a friend in 2 player gaming mode! The one who reaches 5 score first, wins the game. Have
+               Fun!
+            </div>
+         </a>
+         <h2 style="color: #0080ff;">Basketball Random</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-15">
+         <a href="https://www.crazygames.com/game/boxing-random" target="_blank">
+            <img alt="Qries" src="https://cdn.kiz10.com/upload/thumbnails/mediums/14077/boxing-random_.webp" width="200"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">The new version of the random game series that you love
+               to
+               play continues with Boxing Random. Again, changing conditions occur in every round. Sometimes the
+               boxing
+               field changes and sometimes the boxers. Adapt to every random feature and hit accurately. When you
+               get
+               the rocket punch, balance and send it to the opponent's head. This way you can knock out the
+               opponent
+               without getting close! The one who reaches 5 score first, wins the game!</div>
+         </a>
+         <h2 style="color: #0080ff;">Boxing Random</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-20">
+         <a href="https://www.y8.com/games/football_legends_2019" target="_blank">
+            <img alt="Qries" src="https://i.ytimg.com/vi/-lM8U67pejA/maxresdefault.jpg" width="350" height="200"
+               class="image">
+            <div class="overlay" style="font-size: 10px;" class="image">Are you ready for a thrilling football heads
+               game? Do you like football games? Football Legends: Head Soccer is waiting for you to play! Come and make
+               your team a winner. At the beginning of the game, choose your player and be a head soccer 2 legend! You
+               can choose Lionel Messi, Muhammed Salah, Ronaldo or Ronaldinho in the game. After choosing your player,
+               you are ready to win the game with your perfect head score. In the game, you can also see the livescore
+               to reshape your game strategy. </div>
+         </a>
+         <h2 style="color: #0080ff;">Football legend</h2>
+         <h2>⭐⭐⭐</h2>
+      </div>
+   </div>
+   <div class="container-layer1" id="d1">
+      <div class="item item-23">
+         <a href="https://www.y8.com/games/tennis_legends_2016" target="_blank">
+            <img alt="Qries"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRivpTjy68RX7L38yLYt0cvBoBzayHSiLJ66mKD7IawBLdq_OaemCL6HvgSAItj5caGHGA&usqp=CAU"
+               width="206px" height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Tennis Legends is a funny tennis based game featuring
+               big-headed characters that resembles real life tennis legends. The game features a one person tournament
+               mode, two players versus mode, and a quick match mode. Although the game looks funny, playing requires
+               skills and understanding of the sport. </div>
+         </a>
+         <h2 style="color: #0080ff;">Tennis Legend</h2>
+         <h2>⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-31">
+         <a href="https://www.twoplayergames.org/game/gun-mayhem-2" target="_blank">
+            <img alt="Qries" src="https://gunmayhem.io/data/image/gun-mayhem.jpeg"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Play the original Gun Mayhem game where the goal is to stay on the island without getting knocked off. Choose your weapon wisely so that you can knock your opponents off. Grab creates to to get firearm upgrades.</div>
+         </a>
+         <h2 style="color: #0080ff;">Guy Mayhem 2</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-6">
+         <a href="https://www.y8.com/games/tanktrouble" target="_blank">
+            <img alt="Qries" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEVbcZuFh2kdVEavg458p3crzCo7vokeADQ&usqp=CAU"
+               height="200" class="image">
+            <div class="overlay" style="font-size: 10px;">Tank trouble was an early tank game where strategy is needed to hit your opponent with a projectile. Play single player, two player, or three player. Similar to Az tank, Total Tankage.</div>
+         </a>
+         <h2 style="color: #0080ff;">Tank</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-11">
+         <a href="http://www.creetor.com/fighting/creetor-animation-fighting-luffy-vs-naruto" target="_blank">
+            <img alt="Qries" src="https://i.pinimg.com/originals/fb/c1/7f/fbc17f66476109494f8322613ea12b97.png" height="200"
+               class="image">
+            <div class="overlay" style="font-size: 10px;">Best animation fighting game ever! You can choose your character from One piece,naruto,bleach,dragon ball characters to fight computer or your friends.more characters and game modes will coming soon!</div>
+         </a>
+         <h2 style="color: #0080ff;">Animation Fighting</h2>
+         <h2>⭐⭐⭐⭐⭐</h2>
+      </div>
+      <div class="item item-30">
+         <a href="https://www.y8.com/games/stick_figure_badminton" target="_blank">
+            <img alt="Qries" src="https://data.gameflare.com/games/7858/D0beCPjpwc7tUw-220-165.jpg"
+           height="200" class="image">
+            <div class="overlay" style="font-size: 10px;" class="image"> Play Stick Figure Badminton, it's very similar to tennis except the birdie or shuttlecock moves in more of an arc. It is a high drag object, so it tends to float more than a tennis ball while falling. Play with 2 players or in an addictive single player mode with various difficulties possible.</div>
+         </a>
+         <h2 style="color: #0080ff;">Badminton</h2>
+         <h2>⭐⭐⭐</h2>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="l-navbar" id="navbar">
+      <nav class="nav">
+         <div>
+            <div class="nav__brand">
+               <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+               <a href="#" class="nav__logo" onclick="IndexFunction()">EpicGamer.com</a>
+            </div>
+            <div class="nav__list">
+               <a href="#" class="nav__link1 active" onclick="SimpleFunction()">
+                  <img src="https://freepikpsd.com/media/2019/11/flappy-bird-png-1-Transparent-Images.png"
+                     class="nav__icon" height="20px"></ion-icon>
+                  <span class="nav__name">Simple Games</span>
+               </a>
+
+               <a href="#" class="nav__link2 active" onclick="SportFunction()">
+                  <img
+                     src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Soccer_ball.svg/1200px-Soccer_ball.svg.png"
+                     style="height: 20px;" class="nav__sport"> <span class="nav__name1">Sport Games</span>
+               </a>
+
+               <a href="#" class="nav__link3 active" onclick="FightingFunction()">
+                  <img src="https://image.flaticon.com/icons/png/512/158/158107.png" class="nav__fight"
+                     style="height: 20px;"><span class="nav__name3">Fighting Games</span>
+
+               </a>
+
+               <a href="#" class="nav__link4 active" onclick="StrategyFunction()">
+                  <span class="nav__strategy"><i class="fas fa-chess-bishop"></i></span>
+                  <span class="nav__name4">Strategy Games</span>
+               </a>
+               <a href="#" class="nav__link5 active" onclick="TwoPlayerFunction()">
+                  <span class="nav__twoplayergame"><img
+                        src="https://cdn.iconscout.com/icon/premium/png-256-thumb/two-player-1546039-1313132.png" style
+                        height="20px"></span>
+                  <span class="nav__name5">TwoPlayerGames</span>
+               </a>
+               <a href="#" class="nav__link6 active" onclick="ArcadeFunction()">
+                  <span class="nav__arcade"><img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Pacman_HD.png"
+                        style height="20px"></span>
+                  <span class="nav__name6">Arcade Games</span>
+               </a>
+            </div>
+         </div>
+
+         <a href="#" class="nav__link7 active">
+            <span class="nav__logout">
+               <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+            </span>
+            <span class="nav__name7">Log Out</span>
+
+         </a>
+      </nav>
+   </div>
+   <!-- ===== IONICONS ===== -->
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+   <!-- ===== MAIN JS ===== -->
+   <script src="script.js"></script>
+
+
+</body>
+
+</html>

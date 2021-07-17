@@ -1,0 +1,873 @@
+.html{
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+* {box-sizing: border-box;}
+  .body{
+      background: whitesmoke;
+}
+@font-face {
+  font-family: "Bruh";
+  src: url("debug-font(1).zip");
+}
+body{
+  background-color: #111e6c;
+  margin-top:  0.7in; ;
+  height: 100%;
+}
+p  {
+  font-family: Bruh ;
+}
+.container {
+        height: 550px;
+        background: url(https://my4kwallpapers.com/wp-content/uploads/2020/12/Fortnite-4k-Wallpaper.jpg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Orbitron', sans-serif;
+        display: flex;        
+        font-size: 22px;
+        color: white;
+        width: 100%;
+
+}
+.container-typeholder{
+width: 1000px;
+position: relative;
+color: white;
+margin: 2ch;
+height: 180px;
+}
+span.logo{
+position: relative;
+top: -10px;
+}
+span.gamebutton{
+  position: relative;
+  top: -45px;
+  left: 20px;
+}
+.searchbox{
+  height: 70px;
+  width: 530px;
+  border: none;
+  background: #1c2951;
+  border-radius: 20px;
+  padding: 15px;
+  color: white;
+  position: relative;
+  left: 210px;
+  top: -115px;
+}
+.container-typeholder :placeholder-shown{
+  background: #1c2951;
+  border: none;
+  width: 460px;
+  height: 40px;
+  color: white;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  padding: none;
+  color: white;
+  font-size: 15px;
+  line-height: 40px;
+  width: 460px;
+}
+
+span.newgame{
+  position: relative;
+  top: -340px;
+  right: -762px;
+}
+.accordion{
+  height: 80px;
+  width: 115px;
+  background-color: #1338be;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  outline: none;
+  transition: 0.4s;
+  padding: 13px;
+}
+.panel {
+  padding: 4px;
+  background-color: #3944bc;
+  width: 135px;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  right: -770px;
+  top: -185px;
+  overflow: hidden;
+  display: none;
+}
+.active, .accordion:hover {
+  background-color: #1520a6; 
+}
+.register{
+  position: relative;
+  top: -96px;
+  left: 450px;
+  text-align: center;
+  font-size: 13px;
+}
+.login{
+position: relative;
+top: -96px;
+right: -460px;
+}
+.language{
+  position: relative;
+  top: -182px;
+  right: -935px;
+}
+.topsearch{
+  position: relative;
+  top: -170px;
+  background-color: #2832c2;
+  height: 75px;
+  width: 730px;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 12px;
+}
+.Dash{
+  top: -47px;
+  right: -130px;
+  position: relative;
+}
+.Superfighter{
+  position: relative;
+  top: -47px;
+  right: -145px;
+}
+.Tank{
+  position: relative;
+  top: -47px;
+  right: -160px;
+}
+.Krunker{
+  position: relative;
+  top: -47px;
+  right: -175px;
+}
+.Tetris{
+  position: relative;
+  top: -47px;
+  right: -190px;
+}
+.container-layer1{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 230px;
+  position: relative;
+  right: .5px;
+  background-color: #111e6c;
+  text-align: center;
+  text-decoration: none;
+}
+.container-layer2{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 230px;
+  right: -130px;
+  position: relative;
+  background-color: #111e6c;
+  border: 1ch;
+  text-align: center;
+}
+.container-layer3{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 230px;
+  right: .5px;
+  position: relative;
+  background-color: #111e6c;
+  text-align: center;
+}
+.container-layer4{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 230px;
+  right: -130px;
+  position: relative;
+  background-color: #111e6c;
+  text-align: center;
+}
+.container-layer5{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 230px;
+  right: .5px;
+  position: relative;
+  background-color: #111e6c;
+  text-align: center;
+}
+.container-layer6{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 230px;
+  right: -130px;
+  position: relative;
+  background-color: #111e6c;
+  text-align: center;
+}
+.space{
+  height: 100px;
+  background-color:#111e6c;
+  position: relative;
+  top: -1000000px;
+}
+
+button{
+    background-color: #0080ff;
+    color: white;
+    border-radius: 20px;
+    width: 125px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+  background-color: #3d8cdb;
+}
+.image {
+  border: 5px solid #1034a6;
+}
+
+
+.overlay {
+  bottom: 0;
+  position: absolute; 
+  background: #000080;
+  width: 200px;
+  transition: .5s ease;
+  opacity:0;
+  color: #008ECC;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+
+}
+#d1{
+  width: 1295px;
+  height: 400px;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+#d2{
+  width: 1165px;
+  height: 400px;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+#d1{
+  width: 1295px;
+  height: 400px;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+#d3{
+  width: 1165px;
+  height: 400px;
+}
+
+/*navigation bar*/
+.nav1{
+  position: fixed;
+  top: 0;
+  left: 1134px;
+  width: 19%;
+  height: 50px;
+  float: right;
+  z-index: 9999;
+}
+  .li1 {
+      float: right;
+  
+  }
+  .ul1 {
+      list-style-type: none;
+      padding: 2px;
+      overflow: hidden;
+      background: #2832c2;
+      overflow: hidden;
+    }
+
+
+  .side-navi li:hover{
+    background-color:#cecece;
+    border-radius: 85%;
+    opacity: 70%;
+  }
+  li i {
+      font-size: 24px;
+      color: gray;
+      padding: 13px 16px;
+    }
+  li img{
+      width: 45px;
+      height: 45px;
+  }
+
+
+
+
+
+
+
+
+
+
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root{
+  --nav-width: 92px;
+
+  /*===== Colores =====*/
+  --first-color: #0C5DF4;
+  --bg-color: #12192C;
+  --sub-color: #B6CEFC;
+  --white-color: #FFF;
+  
+  /*===== Fuente y tipografia =====*/
+  --body-font: 'Poppins', sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+  
+  /*===== z index =====*/
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  margin: 0;
+  padding: 2rem 0 0 6.75rem;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: .5s;
+}
+h1{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/*===== l NAV =====*/
+.l-navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--white-color);
+  padding: 1.5rem 1.5rem 2rem;
+  transition: .5s;
+  z-index: var(--z-fixed);
+  overflow: auto;
+}
+
+/*===== NAV =====*/
+.nav{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.nav__brand{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav__toggle{
+  font-size: 1.25rem;
+  padding: .75rem;
+  cursor: pointer;
+}
+.nav__logo{
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+
+
+
+.nav__link1{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link2{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link3{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link4{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link5{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link6{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link7{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link1:hover{
+  background-color: #ed2939;
+}
+.nav__link2:hover{
+  background-color: #0080ff;
+}
+.nav__link3:hover{
+  background-color: #b200ed;
+}
+.nav__link4:hover{
+  background-color: #00a86b;
+}
+.nav__link5:hover{
+  background-color: #ff5349;
+}
+.nav__link6:hover{
+  background-color: #ffd300;
+}
+.nav__link7:hover{
+  background: #3944bc;
+}
+
+.nav__icon{
+  font-size: 1.25rem;
+  position: relative;
+  left: -6px;
+}
+.nav__name{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: -1px;
+}
+.nav__name1{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: 15px;
+}
+.nav__name2{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: 8px;
+}
+.nav__name3{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: 11px;
+}
+.nav__name4{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: 21px;
+  top: 1px;
+}
+.nav__name5{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: 8px;
+  top: 3x;
+}
+.nav__name6{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: 8px;
+  top: 3x;
+}
+.nav__name7{
+  font-size: var(--small-font-size);
+  position: relative;
+  left: 8px;
+  top: 100x;
+}
+.nav__sport{
+  position: relative;
+  left: 0px;
+}
+.nav__fight{
+  position: relative;
+  left: 0px;
+}
+.nav__strategy{
+  position: relative;
+  left: 4.5px;
+  top: -4px;
+  height: 10px;
+}
+.nav__twoplayergame{
+  height: 30px;
+  position: relative;
+  top: 3px;
+}
+.nav__arcade{
+  position: relative;
+}
+.nav__logout{
+  position: relative;
+  left: 7px;
+  top: 3px;
+}
+/*Expander menu*/
+.expander{
+  width: calc(var(--nav-width) + 9.25rem);
+}
+
+/*Add padding body*/
+.body-pd{
+  padding: 2rem 0 0 16rem;
+}
+
+/*Active links menu*/
+.active{
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+/*Rotate icon*/
+.rotate{
+  transform: rotate(180deg);
+}
+Span
+
+span.logo{
+background-image: url("https://cdn5.vectorstock.com/i/1000x1000/92/99/ninja-gaming-logo-vector-34709299.jpg");
+height: 500px;
+}
+
+Overlay
+.item-1:hover .overlay {
+  opacity: 1;
+}
+.item-2:hover .overlay {
+  opacity: 1;
+}
+.item-3:hover .overlay {
+  opacity: 1;
+}
+.item-4:hover .overlay {
+  opacity: 1;
+}
+.item-5:hover .overlay {
+  opacity: 1;
+}
+.item-6:hover .overlay {
+  opacity: 1;
+}
+.item-7:hover .overlay {
+  opacity: 1;
+}
+.item-8:hover .overlay {
+  opacity: 1;
+}
+.item-9:hover .overlay {
+  opacity: 1;
+}
+.item-10:hover .overlay {
+  opacity: 1;
+}
+.item-11:hover .overlay {
+  opacity: 1;
+}
+.item-12:hover .overlay {
+  opacity: 1;
+}
+.item-13:hover .overlay {
+  opacity: 1;
+}
+.item-14:hover .overlay {
+  opacity: 1;
+}
+.item-15:hover .overlay {
+  opacity: 1;
+}
+.item-16:hover .overlay {
+  opacity: 1;
+}
+.item-17:hover .overlay {
+  opacity: 1;
+}
+.item-18:hover .overlay {
+  opacity: 1;
+}
+.item-19:hover .overlay {
+  opacity: 1;
+}
+.item-20:hover .overlay {
+  opacity: 1;
+}
+.item-21:hover .overlay {
+  opacity: 1;
+}
+.item-22:hover .overlay {
+  opacity: 1;
+}
+.item-23:hover .overlay {
+  opacity: 1;
+}
+.item-24:hover .overlay {
+  opacity: 1;
+}
+.item-25:hover .overlay {
+  opacity: 1;
+}
+.item-26:hover .overlay {
+  opacity: 1;
+}
+.item-27:hover .overlay {
+  opacity: 1;
+}
+.item-28:hover .overlay {
+  opacity: 1;
+}
+.item-29:hover .overlay {
+  opacity: 1;
+}
+.item-30:hover .overlay {
+  opacity: 1;
+}
+.item-31:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
+
+
+.item-1 {
+  margin: .3in;
+}
+.item-2 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-3  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+
+.item-4  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+
+.item-5 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+
+.item-6  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+
+.item-7 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+
+.item-8 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+
+.item-9 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-10 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-11  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-12  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-13 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-14 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-15 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-16 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-17  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-18 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-19 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-20 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-21 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-22 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-23 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-24 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-25  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-26 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-27 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-28 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-29 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-30  {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-31 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-32 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-33 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}
+.item-34 {
+  margin: .3in;
+  border: 3px solid #1034a6; 
+}

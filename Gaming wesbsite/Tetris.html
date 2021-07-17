@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74a85fb860.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav1">
+        <ul class="ul1">
+            <li class="li1"><img
+                    src="https://i.pinimg.com/originals/15/d7/f3/15d7f39d142ed0ad0be65c0e06f1e990.png"></li>
+            <div class="side-navi">
+                <li class="li1"><i class="far fa-comments" onclick="feedbackfunction()"></i></li>
+                <li class="li1"><i class="fa fa-facebook"></i></li>
+                <li class="li1"><i class="fa fa-instagram"></i></li>
+                <li class="li1"><i class="fa fa-twitter"></i></li>
+            </div>
+        </ul>
+    </div>
+    <body id="body-pd">
+        <div class="container"></div>
+        <div class="container-typeholder">
+            <span class="logo"><img src="https://i.pinimg.com/originals/15/d7/f3/15d7f39d142ed0ad0be65c0e06f1e990.png"
+                    height="80px">
+            </span>
+            <span class="gamebutton"><button
+                    style="width: 80px; height: 70px; background-color: #cc5801;">Games</button></span>
+            <div class="searchbox">
+                <input class="search-txt" type="text" name="" placeholder="Geometry Dash">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+    
+            <span class="register">
+                <button class="register" style="background-color: #cc5801; height: 70px;">Register</button>
+            </span>
+            <span class="login">
+                <button class="login" style="height: 70px; background-color: whitesmoke; color: gray;">Login</button>
+            </span>
+            <span class="language">
+                <button style="height: 70px; width: 70px; background-color: #1338be;"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_the_United_States_and_United_Kingdom.png"
+                        height="30px"></button>
+            </span>
+            <div class="topsearch">
+                <h3>TOP SEARCHES</h3>
+                <span class="Dash">
+                    <button onclick="DashFunction()">Geometrydash</button>
+                </span>
+                <span class="Superfighter">
+                    <button style="width: 110px;" onclick="SPFunction()">Superfighter</button>
+                </span>
+                <span class="Tank">
+                    <button style="width: 80px;" onclick="TankFunction()">Tanki</button>
+                </span>
+                <span class="Krunker">
+                    <button style="width: 100px;" onclick="KrunkerFunction()">Krunker</button>
+                </span>
+                <span class="Tetris">
+                    <button style="width: 80px;"  onclick="TetrisFunction()">Tetris</button>
+                </span>
+            </div>
+            <span class="newgame">
+                <button class="accordion" style="font-size: 13.2px;">New Games <i class="fas fa-chevron-down"></i>
+                    <p id="demo"></p>
+                </button>
+            </span>
+        </div>
+        <div class="container-layer1" id="d3">
+            <div class="item item-2">
+                <a href="https://tetris.com/play-tetris" target="_blank">
+                   <img alt="Qries" src="https://napthe365.com/pictures/images/game-tetris.jpg" width="316px" height="200"
+                      class="image">
+                   <div class="overlay" style="font-size: 10px;">Tetris is a tile-matching video game created by Russian
+                      software engineer Alexey Pajitnov in 1984 for the Electronika 60 computer. It has been published by
+                      several companies, most prominently during a dispute over the appropriation of the rights in the late
+                      1980s.</div>
+                </a>
+                <h2 style="color: #0080ff;">Tetris</h2>
+                <h2>⭐⭐⭐⭐</h2>
+             </div>
+       
+        </div>
+    
+    
+    
+    
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo" onclick="IndexFunction()">EpicGamer.com</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link1 active" onclick="SimpleFunction()">
+                            <img src="https://freepikpsd.com/media/2019/11/flappy-bird-png-1-Transparent-Images.png"
+                                class="nav__icon" height="20px"></ion-icon>
+                            <span class="nav__name">Simple Games</span>
+                        </a>
+    
+                        <a href="#" class="nav__link2 active" onclick="SportFunction()">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Soccer_ball.svg/1200px-Soccer_ball.svg.png"
+                                style="height: 20px;" class="nav__sport"> <span class="nav__name1">Sport Games</span>
+                        </a>
+    
+                        <a href="#" class="nav__link3 active" onclick="FightingFunction()">
+                            <img src="https://image.flaticon.com/icons/png/512/158/158107.png" class="nav__fight"
+                                style="height: 20px;"><span class="nav__name3">Fighting Games</span>
+    
+                        </a>
+    
+                        <a href="#" class="nav__link4 active" onclick="StrategyFunction()">
+                            <span class="nav__strategy"><i class="fas fa-chess-bishop"></i></span>
+                            <span class="nav__name4">Strategy Games</span>
+                        </a>
+                        <a href="#" class="nav__link5 active" onclick="TwoPlayerFunction()">
+                            <span class="nav__twoplayergame"><img
+                                    src="https://cdn.iconscout.com/icon/premium/png-256-thumb/two-player-1546039-1313132.png"
+                                    style height="20px"></span>
+                            <span class="nav__name5">TwoPlayerGames</span>
+                        </a>
+                        <a href="#" class="nav__link6 active" onclick="ArcadeFunction()">
+                            <span class="nav__arcade"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/2/26/Pacman_HD.png" style
+                                    height="20px"></span>
+                            <span class="nav__name6">Arcade Games</span>
+                        </a>
+                    </div>
+                </div>
+    
+                <a href="#" class="nav__link7 active">
+                    <span class="nav__logout">
+                        <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    </span>
+                    <span class="nav__name7">Log Out</span>
+    
+                </a>
+            </nav>
+        </div>
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    
+        <!-- ===== MAIN JS ===== -->
+        <script src="script.js"></script>
+    
+    
+</body>
+</html>
