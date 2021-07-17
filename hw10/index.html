@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="container-typeholder">
+            <h1 style="font-size: 50px;">BMR calculator</h1>
+            <h3>Use BMR calculator to calculate your need calories everyday based on your height, weight, age, and activity. </h3>
+            <img style="height: 75px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHQLNXZCQMJbv-giPwOWta2Abd7oXji4ekg&usqp=CAU">
+            <img style="height: 75px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbCJEX5UCBWIpLH729ldVxcUtLv16JHpcZXg&usqp=CAU">
+                    <form>
+                        <div class="poll">
+                            Male: <span class="inline"><input type="radio" name="Male" value="poll"id="Male"
+                                onclick="register"> 
+                            Female: <input type="radio" name="vote" value="Female" onclick="register" id="Female"> </span>
+                </div>
+                <div class="item item-1">
+                    <label for="Height">Height</label><br>
+                    <input placeholder="Enter your Height" type="text" id="Height" name="Height"></input>
+                </div>
+                <div class="item item-2">
+                    <label for="Age">Age</label><br>
+                    <input placeholder="Enter your Age" type="text" id="Age" name="Age"></input>
+                </div>
+                <div class="item item-3">
+                    <label for="Weight">Weight</label><br>
+                    <input placeholder="Weight" type="text" id="Weight" name="Weight"></input>
+                </div>
+                <button onclick="register()" >Calculate</button>
+                <p>Your BMR is <span id="result"></span></p>
+                <script src="./script.js"></script>
+            </form>
+           
+</body>
+</html>
