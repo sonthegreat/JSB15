@@ -1,0 +1,43 @@
+button{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 1%;
+    font-size: 20px;
+    border: none;
+}
+#container{
+    width: 1000px;
+    height: 500px;
+}
+#calculator{
+    width: 330px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+#keyboard{
+    width: 400px;
+}
+#result{
+    height: 150px;
+}
+#history{
+width: 310px;
+height: 50px;
+font-size: 20px;
+text-align: right;
+color: white;
+padding-top: 10px;
+font-family: 'Open Sans', sans-serif;
+}
+#output{
+text-align: right;
+width: 310px;
+font-size: 30px;
+color: white;
+height: 40px;
+font-family: 'Open Sans', sans-serif;
+}
