@@ -1,0 +1,48 @@
+.html{
+    background-color: whitesmoke;
+}
+.container-typeholder :placeholder-shown{
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    background-color: white;
+
+}
+.container-typeholder{
+    padding: .3in;
+    background-color: whitesmoke;
+    width: 400px;
+
+}
+.container{
+    padding: .3in;
+    margin: .1in;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    width: 400px;
+}
+.item-1{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.item-2{
+    margin-bottom: 20px;
+
+
+}
+.item-3{
+    margin-bottom: 20px;
+    
+}
+Button{
+    background-color: #3030a0;
+    color: white;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    font: 50px;
+}
