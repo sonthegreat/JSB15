@@ -1,0 +1,268 @@
+.container{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    margin: 1in;
+}
+.container-left{
+    margin: .3in;
+}
+.container-right{
+    margin: .3in;
+}
+.container-bottom{
+    margin: .5in;
+}
+
+.item{
+    line-height: 10px;
+    margin: 10px;
+}
+.item-1{
+    background-color: rgb(224, 112, 112);
+    height: 70px;
+    width:100px;
+}
+.item-2{
+    background:  white;
+    height: 150px;
+    width: 100px;
+}
+.item-3{
+    background-color: rgb(199, 194, 194);
+    height: 170px;
+    width: 100px;
+}
+.item-4{
+    background-color: rgb(199, 194, 194);
+    height: 170px;
+    width: 100px;
+}
+.item-5{
+    background: linear-gradient(white 50%, lightgreen 50%);
+    height: 310px;
+    width: 600px;
+    }
+.item-6{
+    background: lightcoral;
+    height: 40px;
+    width: 600px;
+
+
+}
+.item-7{
+    background: white;
+    height: 100px;
+    width: 600px;
+
+}
+.item-8{
+    background: white;
+    height: 170px;
+    width: 600px;
+}
+.item-9{
+    background: rgb(199, 194, 194);
+    height: 60px;
+    width: 810px;
+}
+
+span.ab{
+    background: teal;
+    height: 17px;
+    width: 100px;
+    display: inline-flex;
+}
+span.cd{
+    background: lightblue;
+    height: 16px;
+    width: 100px;
+    display: inline-flex;
+}
+span.ef{
+    background: teal;
+    height: 17px;
+    width: 100px;
+    display: inline-flex;
+}
+span.gh{
+    background: lightblue;
+    height: 16px;
+    width: 100px;
+    display: inline-flex;
+}
+span.ij{
+    background: teal;
+    height: 17px;
+    width: 100px;
+    display: inline-flex;
+}
+span.kl{
+    background: lightblue;
+    height: 16px;
+    width: 100px;
+    display: inline-flex;
+}
+span.mn{
+    background: teal;
+    height: 17px;
+    width: 100px;
+    display: inline-flex;
+}
+span.op{
+    background: lightblue;
+    height: 16px;
+    width: 100px;
+    display: inline-flex;
+}
+span.qr{
+    background: teal;
+    height: 17px;
+    width: 100px;
+    display: inline-flex;
+}
+span.a{
+    background-color: lightgreen;
+    height: 130px;
+    width: 600px;
+    display: inline-flex;
+}
+span.b{
+    margin: auto;
+    background: lightgreen;
+    height: 25px;
+    width: 460px;
+    display: inline-flex;
+}
+span.c{
+    height: 30px;
+    width: 100%;
+    display: inline-flex;
+}
+#half-c {
+    width: 50%;
+}
+#half-c-black{
+    width: 50%;
+    background-color: black;
+}
+span.d{
+    background:lightgreen;
+    height: 65px;
+    width:  600px;
+    display:inline-flex;
+}
+span.e{
+    background: green;
+    height: 60px;
+    width: 147px;
+    display: inline-flex;
+}
+span.f{
+    background: green;
+    height: 60px;
+    width: 147px;
+    display: inline-flex;
+}
+span.g{
+    background: green;
+    height: 60px;
+    width: 147px;
+    display: inline-flex;
+}
+span.h{
+    background: green;
+    height: 60px;
+    width: 147px;
+    display: inline-flex;
+}
+span.i{
+    background: lightblue;
+    height: 40px;
+    width: 350px;
+    display: inline-flex;
+}
+span.j{
+    background: rgb(235, 201, 117);
+    height: 100px;
+    width: 133px;
+    display: inline-flex;
+}
+span.k{
+    background: white;
+    height: 100px;
+    width: 20px;
+    display: inline-flex;
+}
+span.l{
+    background: rgb(235, 201, 117);
+    height: 100px;
+    width: 133px;
+    display: inline-flex;
+}
+span.m{
+    background: white;
+    height: 100px;
+    width: 20px;
+    display: inline-flex;
+}
+span.n{
+    background: rgb(235, 201, 117);
+    height: 100px;
+    width: 133px;
+    display: inline-flex;
+}
+span.o{
+    background: white;
+    height: 100px;
+    width: 20px;
+    display: inline-flex;
+}
+span.p{
+    background: rgb(235, 201, 117);
+    height: 100px;
+    width: 133px;
+    display: inline-flex;
+}
+span.q{
+    background:rgb(245, 137, 137);
+    height: 170px;
+    width: 133px;
+    display: inline-flex;
+}
+span.r{
+    background: white;
+    height: 170px;
+    width: 20px;
+    display: inline-flex;
+}
+span.s{
+    background:rgb(245, 137, 137); 
+    height: 170px;
+    width: 133px;
+    display: inline-flex;
+}
+span.t{
+    background: white;
+    height: 170px;
+    width: 20px;
+    display: inline-flex;
+}
+span.u{
+    background:rgb(245, 137, 137);
+    height: 170px;
+    width: 133px;
+    display: inline-flex;
+}
+span.v{
+    background: white;
+    height: 170px;
+    width: 20px;
+    display: inline-flex;
+}
+span.w{
+    background:rgb(245, 137, 137); 
+    height: 170px;
+    width: 133px;
+    display: inline-flex;
+}
