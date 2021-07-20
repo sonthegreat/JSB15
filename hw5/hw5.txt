@@ -1,0 +1,31 @@
+1
+let p = prompt('Enter the radius of the circle')
+console.log('The circumference of the circle is' + Math.round(Math.PI*2*p*100)/100)
+
+2
+let name = prompt('Enter your name')
+console.log('Name: ' + name)
+let age = prompt('Enter your age')
+console.log('Age: ' + age)
+let occupation = prompt('What is your occupation')
+console.log('occupation: ' + occupation)
+let House = prompt('Where do you live in?')
+console.log('Live in: ' + House)
+let Id = prompt('Id number')
+console.log('Id number: ' + Id')
+let Citizen = prompt('What is your citizenship?')
+console.log('Citizenship: ' + Citizen)
+
+3
+let one = parseInt(prompt('Enter the first number'))
+let two = parseInt(prompt('Enter a number below 10'))
+let three = parseInt(prompt('Enter a odd number?'))
+let four = parseInt(prompt('Use random number generator from 1-100 and enter the number they put?'))
+let five = parseInt(prompt('Ask your sister to give a random number then type that number in'))
+console.log('The sum of the total number= ' + Math.round(one+two+three+four+five))
+console.log('The product of the total of number= ' +Math.round(one*two*three*four*five))
+console.log('The biggest number = ' + Math.max(one, two, three, four, five))
+console.log('The smallest number= ' + Math.min(one, two, three, four, five)) 
+
+
+
