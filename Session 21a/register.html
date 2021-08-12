@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link data-require="bootstrap@4.1.1" data-semver="4.1.1" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+        <script>src="https://code.jquery.com/jquery-3.2.1.js"</script>
+        
+
+
+</head>
+
+<body style="background-image: linear-gradient( turquoise, royalblue); background-size: cover; background-repeat: no-repeat;">
+    <div class="container">
+        <div class="background">
+            <div class="title">
+                <h1>Todo App</h1>
+            </div>
+
+            <div class="form">
+                <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+                    <input type="text" id="add-todo" style="margin-left: 20px;" placeholder="Add your new To-Do">
+                    <input type="submit" value="+" class="btn btn-primary">
+                </form>
+
+                <table style="margin-left: 20px;" >
+                    <tr class="to-do">
+                        <th>
+                            <h3>To-Do:</h3>
+                        </th>
+                    </tr>
+                    <tbody id="tasks">
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="edit-box" role="aria-hidden">
+                <form action="javascript:void(0);" method="POST" id="save-edit">
+                    <input type="text" id="edit-todo">
+                    <input type="submit" value="Save" class="btn btn-success" /> <a onclick="CloseInput()"
+                        aria-label="Close">&#10006;</a>
+                </form>
+            </div>
+
+            <p style="margin-left: 20px; margin-bottom: 6px;">You have </p>
+            <p id="counter" style="margin-left: 90px; margin-top: -30px;"  ></p>
+
+            <button type="button" onclick="actionClear()" class="clear" style="position: relative; right: -220px; top: -45px;">Clear all</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
