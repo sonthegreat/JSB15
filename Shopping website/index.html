@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-top">
+    <span><img class="logo" src="https://i.pinimg.com/originals/4a/38/7b/4a387bda853bca3782d73234c786a150.png"><Button
+        class="Shoppit">Shoppit</Button></span>
+    <div class="searchbox">
+      <input class="search-txt" type="text" name="" placeholder="Type to search" onchange="openPage()" id="search">
+      <a class="search-btn" href="#" onchange="openPage()" id="search">
+        <i class="fas fa-search" style="color: #fc6600;"></i>
+      </a>
+    </div>
+    <button type="button" class="login-button" onclick="loginFunction()">Login</button>
+    <button class="cart-button"><i style="color: white;" class="fas fa-shopping-cart"><span>0</span></i></button>
+  </div>
+
+
+
+  <div class="container">
+    <!-- Cột bên trái, chứa các sản phẩm -->
+    <div class="container__left">
+      <div class="container__left-title">
+        <h3 class="title">Total</h3>
+        <div class="border-title"></div>
+      </div>
+      <div class="container__left-product" id="allProducts">
+        <!-- Start product -->
+
+      </div>
+    </div>
+    <!-- Cột bên phải, chứa các sản phẩm yêu thích -->
+    <div class="container-right">
+      <h3>Shopping cart<i class="fas fa-shopping-cart"></i></h3>
+      <table class="products-container">
+        <tr>
+          <th style="width: 500px;">Product</th>
+          <th style="margin-left: 120px;">Quantity</th>
+          <th style="margin-left: 40px;" id="amount">Subtotal</th>
+        </tr>
+        </table>
+        <div class="list">
+          <!--show in JS-->
+          
+        </div>
+
+      
+
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-top">
+    <span><img class="logo" src="https://i.pinimg.com/originals/4a/38/7b/4a387bda853bca3782d73234c786a150.png"><Button
+        class="Shoppit">Shoppit</Button></span>
+    <div class="searchbox">
+      <input class="search-txt" type="text" name="" placeholder="Type to search" onchange="openPage()" id="search">
+      <a class="search-btn" href="#" onchange="openPage()" id="search">
+        <i class="fas fa-search" style="color: #fc6600;"></i>
+      </a>
+    </div>
+    <button type="button" class="login-button" onclick="logoutFunction()">ABC3</button>
+    <button class="cart-button"><i style="color: white;" class="fas fa-shopping-cart"></i></button>
+  </div>
+
+
+
+  
+  <div class="container">
+    <!-- Cột bên trái, chứa các sản phẩm -->
+    <div class="container__left">
+      <div class="container__left-title">
+        <h3 class="title">Total</h3>
+        <div class="border-title"></div>
+      </div>
+      <div class="container__left-product" id="allProducts">
+        <!-- Start product -->
+        
+      </div>
+    </div>
+    <!-- Cột bên phải, chứa các sản phẩm yêu thích -->
+    <div class="container-right">
+      <h3>Shopping cart<i class="fas fa-shopping-cart"></i></h3>
+      <table id="myTable">
+        <tr>
+          <th style="width: 500px;">Product</th>
+          <th style="margin-left: 120px;">Quantity</th>
+          <th style="margin-left: 40px;" id="amount">Subtotal</th>
+        </tr>
+        <tbody>
+          <tr>
+            <td>
+              <div class="product-cart">
+                <img src="https://m.media-amazon.com/images/I/91T0XQv8gEL._SL1500_.jpg">
+                <div>
+                  <p> GTA 5</p>
+                  <p class="price form-control" disabled> Price= $59.99</p>
+                  <br>
+                  <a href="">Remove</a>
+                </div>
+              </div>
+            </td>
+            <td class="product-quantity">
+              <div class="button-container">
+                <button class="cart-qty-plus" type="button" value="+">+</button>
+
+
+                <input type="text" name="qty" min="0" class="qty form-control" value="0">
+
+
+                <button class="cart-qty-minus" type="button" value="-">-</button>
+              </div>
+
+            </td>
+            <td class="product-subtotal"> $ <span class="price form-control" id="amount">0</span></td>
+        </tbody>
+
+        </tr>
+      </table>
+      <div class="cart-input">
+        <input type="button" value="Save" onclick="SaveItem()">
+        <input type="button" value="Update" onclick="ModifyItem()">
+        <input type="button" value="Delete" onclick="RemoveItem()">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
