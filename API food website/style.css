@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+ background: url("banner1.webp") no-repeat center center fixed;
+ width: 101%;
+ height: 100vh;
+ background-size: cover;
+ background-size: 100% 100%;
+ background-position: center center;
+ background-repeat: no-repeat;
+ object-fit: contain;
+ background-attachment: fixed;
+ color: white;
+ margin-left: -8px;
+ margin-top: -22px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.header_text{
+    margin-left: 50px;
+    position: relative;
+    top: 40px;
+}
+.top_header_button{
+    opacity: 0.2;
+    background: #ff5200;
+    border: #ff5200;
+    padding-top: 0px;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    height: 50px;
+}
+.dot{
+    color: orange;
+}
+.top_header_button{
+    margin-left: 1250px;
+}
+.header_content{
+    margin-left: 450px;
+    margin-top: 150px;
+    width: 420px;
+}
+.header_button{
+    margin-left: 150px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    background: #ff5200;
+    border: #ff5200;
+}
+
+
+
+
+
+
+.footer{
+    background-color: #645f56;
+    color: white;
+    margin-left: -8px;
+    width: 101%;
+    height: 150px;
+}
+.footer-title{
+    margin-left: 110px;
+    position: relative;
+    top: 20px;
+}
+.footer-text{
+    margin-left: 110px;
+}
+.footer-left{
+    margin-left: 800px;
+    position: relative;
+    top: -50px;
+    font-size: 18px;
+}
