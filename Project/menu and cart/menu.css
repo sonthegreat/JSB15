@@ -1,0 +1,166 @@
+/* Color Theme Swatches in Hex */
+.color-theme_mitski-1-hex { color: #F2CEDF; }
+.color-theme_mitski-2-hex { color: #6ACED9; }
+.color-theme_mitski-3-hex { color: #30403E; }
+.color-theme_mitski-4-hex { color: #F2CE16; }
+.color-theme_mitski-5-hex { color: #D97762; }
+
+/*Nav Bar*/
+*{
+padding: 0;
+margin: 0;
+}
+html{
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+p,
+h1,
+h2{
+    font-size: clamp(3rem, 1rem+ 10vw,7rem);
+}
+
+body{
+width: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-color:whitesmoke;
+font-family: 'Lora', serif;
+overflow-x: hidden;
+background-image:  radial-gradient(#30403E 0.55px, transparent 0.55px), radial-gradient(#30403E 0.55px, #fdfdfd 0.55px);
+background-size: 22px 22px;
+background-position: 0 0,11px 11px;
+
+}
+.nav{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.ul-top{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 4vh;
+padding-top: 4px;
+background-color:#30403E;
+list-style-type: none;
+color:white;
+justify-content: center;
+text-align: center;
+
+}
+.ul-bottom{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 10%;
+list-style-type: none;
+justify-content:space-evenly;
+padding-top: 0.5cm;
+margin-top: 4vh;
+}
+a{
+text-decoration: none;
+color:#404A54;
+padding: 2em 1.5em;
+}
+
+/*Display*/
+.display{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(213, 181, 219, 0.3),rgba(214, 183, 198, 0.2)),url('https://c.tenor.com/6jYhyIPRuz8AAAAd/kikis-delivery-service-ghibli.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.ul-bottom a{
+    color:#F2CEDF;
+    transition: background-color .5s;
+}
+
+.caption{
+    display: flex;
+    width: 100%;
+    color:#f2f2f2;
+    justify-content:left;
+    vertical-align: middle;
+    margin: 10em;
+}
+.caption button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border:#F2CEDF 3px solid;
+    color: #F2CEDF;
+}
+
+.caption button:hover{
+    background-color:#D97762;
+    border:#F2CEDF 3px solid;
+    color:unset;
+}
+.caption a{
+    color: #f2f2f2;
+}
+/*Food product*/  
+.product {
+    padding: 5px;
+    width: 20%;
+    margin: 10px auto;
+    height:auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: whitesmoke; 
+
+  }
+
+.item-detail{
+    background-color: #30403E;
+  }
+img.product__img:hover{
+    transform: scale(1.1);
+
+}
+  
+.container__product {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em auto;
+    justify-content: center;
+    text-align:justify;
+
+    
+  }
+  
+img.product__img {
+    width: 80%;
+    height: auto;
+    padding: 10%;
+    transition: transform 0.7s; 
+    overflow: hidden;
+  }
+
+  .container-bottom{
+    padding: 1em;
+    background-color:#30403E;
+    color:#f0d139;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    width: 100%;
+    }
+    .container-bottom p,
+    .container-bottom h2{
+        padding: auto;
+    }
+    
+    li p{ color:rgb(228, 228, 228)}
