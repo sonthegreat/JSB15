@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+body{
+  background: #f2f2f2;
+}
+
+
+
+.display{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(242, 206, 22, 0.3),rgba(242, 206, 223, 0.2)),url('https://c.tenor.com/ZAJq_pO02mUAAAAC/bored-kikis-delivery-service.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    
+    .ul-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4vh;
+    padding-top: 4px;
+    background-color:#6ACED9;
+    list-style-type: none;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+    
+    
+}
+
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 100%;
+}
+nav .logo{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 50px;
+
+}
+nav .nav-items{
+  display: flex;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+nav .nav-items li{
+  list-style: none;
+  
+}
+nav .nav-items li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 80px;
+  
+}
+nav .nav-items li a:hover{
+  color: #ff3d00;
+}
+
+button{
+border: none;
+background: transparent;
+color: white;
+}
+
+.profile{
+  position: absolute;
+  right: 5em;
+  top: 3.8em;
+  color: white;
+  text-decoration: none;
+  margin-left: -10px;
+}
+.profile span{
+  overflow-y: hidden;
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon{
+  position: absolute;
+  right: -1em;
+  top: 3.2em;
+  width: 40px;
+  text-align: center;
+  margin: 0 50px;
+  font-size: 18px;
+  color: #fff;
+  display: none;
+}
+nav .menu-icon span,
+nav .cancel-icon,
+nav .search-icon{
+  display: none;
+}
+
+
+
+.caption{
+    display: flex;
+    width: 100%;
+    color:#f2f2f2;
+    justify-content:left;
+    vertical-align: middle;
+    margin: 2in;
+}
+
+.caption button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border:#F2CEDF 3px solid;
+    color: #F2CEDF;
+}
+
+.caption button:hover{
+    background-color:#D97762;
+    border:#F2CEDF 3px solid;
+    color:unset;
+}
+
+
+/*Menu*/
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.menu-left,
+.menu-right{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    padding: 0.2in;
+}
+.menu-left{
+    background-color:#0D0D0D;
+    display: flex;
+    color: aliceblue;
+    justify-content:flex-end;
+}
+.menu-right{
+    background-color:whitesmoke;
+    color:#0D0D0D;
+}
+.menu-right button{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: transparent;
+    border:#0D0D0D 2px solid;
+    color:#0D0D0D;
+    margin-left: 1cm;
+}
+
+/*Slide show*/
+
+.collapsible {
+  background-color:#30403E;
+  color:#F2CEDF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fdfdfd;
+  background-image:  radial-gradient(#587470 0.45px, transparent 0.45px), radial-gradient(#587470 0.45px, #fdfdfd 0.45px);
+  background-size: 18px 18px;
+  background-position: 0 0,9px 9px;
+}
+
+.content {box-sizing: border-box}
+.mySlides {display: none}
+.mySlides img {vertical-align: middle; }
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 400px;
+position: relative;
+margin:  0.5cm auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+color:#30403E;
+font-size: 12px;
+padding: 5px 12px;
+position: absolute;
+top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .2} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .2} 
+to {opacity: 1}
+}
+
+/*Order*/
+.order{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:#F2CEDF;
+    color:#30403E;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 0.2in;
+    line-height: 0.7cm;
+    overflow-x: hidden;
+}
+.order hr{
+    border:#30403E 1px solid;
+}
+.order-left{
+    display: flex;
+    text-align:justify;
+    width: 30%;
+    height: 30%;
+    margin-right: 1cm;
+    justify-content: flex-end;
+}
+.order-left img{
+    width:50%;
+    height: 50%;
+}
+.order-right{
+    flex-direction: column;
+    margin-left: 1cm;
+    width: 70%;
+    display: flex;
+    text-align:justify;
+}
+/*member*/
+.membership{
+    max-width: 100%;
+    height:inherit;
+    display: flex;
+    flex-direction: row;    
+    background-color: #fdfdfd;
+    opacity: 1;
+    background-image:  radial-gradient(#30403E 0.55px, transparent 0.55px), radial-gradient(#30403E 0.55px, #fdfdfd 0.55px);
+    background-size: 22px 22px;
+    background-position: 0 0,11px 11px;
+    padding: 2in;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+}
+
+.member{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    flex-direction :column ;
+
+}
+
+.member-left,
+.member-right{
+    width: 70%;
+    display: flex;
+    text-align:right;
+    color:#4d4d4d;
+    flex-direction :column ;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.member button{
+    width: 1in;
+    margin: auto;
+    color: aliceblue;
+    background-color:#F2CE16;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: transparent;
+}
+.container-bottom{
+padding: 0.2in;
+background-color:#30403E;
+color:#f0d139;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+text-align: start;
+}
+
+li p{ color:rgb(228, 228, 228)}
+
+@media (max-width: 1050px){
+  nav{
+      padding: 0px;
+    }
+
+    nav .logo{
+      top: 55px;
+      
+
+    }
+
+    nav .nav-items{
+      position: absolute; 
+      top: 100px;
+      width: 100%;
+      left: -100%;
+      background: orange;
+      display: inline-block;
+      transition: left 0.3s ease;
+    }
+  
+
+  nav .nav-items.active{
+      left: 0px;
+      width: 100%; 
+    }
+    .caption.active{
+      position: absolute;
+      top: 200px;
+    }
+nav .nav-items li{
+  line-height: 55px;
+  width: 100%;
+ 
+}
+nav .nav-items li a{
+  font-size: 20px;
+  width: 100%;
+}
+
+
+nav .menu-icon{
+  display: block;
+}
+nav .search-icon,
+nav .menu-icon span{
+  display: block;
+}
+nav .menu-icon span.hide,
+nav .search-icon.hide{
+  display: none;
+}
+nav .cancel-icon.show{
+  display: block;
+}
+.profile{
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+
+}
+
+@media (max-width: 760px){
+  p {
+    font-size: 15px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  .caption{
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 600px){
+  p {
+    font-size: 15px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .caption{
+    margin-left: 100px;
+  }
+  .member{
+    margin-left: -100px;
+    width: 100%;
+
+  }
+}
+
+@media(max-width: 530px){
+  h1{
+    font-size: 15px;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px){
+  p{
+    font-size: 10px;
+  }
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon{
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.profile{
+  margin-right: -40px;
+  margin-top: -7px;
+}
+.caption{
+  margin-left: 50px;
+}
+
+.contact-1{
+  width: 53%;
+}
+.contact-2{
+  margin-left: 50px;
+  width: 95%;
+}
+.contact-3{
+  margin-left: 80px;
+}
+}
+y
